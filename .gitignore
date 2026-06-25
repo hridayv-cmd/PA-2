@@ -1,8 +1,1 @@
-venv/
-.venv/
-env/
-ENV/
-
-
-.DS_Store
-Thumbs.db
+.vnev/
