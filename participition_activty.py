@@ -24,3 +24,10 @@ ten_sided_die = Die(sides=10)
 for _ in range(10):
     print(ten_sided_die.roll_die(), end=" ")
 print("\n")
+
+    # 3. Make a 20-sided die and roll it 10 times 
+print("--- Rolling a 20-sided die 10 times ---")
+twenty_sided_die = Die(sides=20)
+for _ in range(10):
+    print(twenty_sided_die.roll_die(), end=" ")
+print()
