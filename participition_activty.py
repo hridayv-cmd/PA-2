@@ -17,3 +17,10 @@ six_sided_die = Die() # Uses the default value of 6
 for _ in range(10):
     print(six_sided_die.roll_die(), end=" ")
 print("\n") # New line for spacing
+
+    # 2. Make a 10-sided die and roll it 10 times 
+print("--- Rolling a 10-sided die 10 times ---")
+ten_sided_die = Die(sides=10)
+for _ in range(10):
+    print(ten_sided_die.roll_die(), end=" ")
+print("\n")
